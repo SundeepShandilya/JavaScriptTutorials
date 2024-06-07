@@ -12,3 +12,11 @@ console.log(b)
 "abc454" => Nan
 True => 1
 */
+
+
+//Operations(Conversions)
+
+console.log(1+1+"1");
+
+console.log("2"+2+4);
+console.log(2+"3"+2);
