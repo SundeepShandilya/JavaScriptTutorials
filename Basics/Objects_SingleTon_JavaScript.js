@@ -27,3 +27,25 @@ console.log(User.UserFullName.firstName);
 const obj3={...User,...User2};
 
 console.log(obj3);
+
+//Course Destructure
+
+const Course={
+    courseName :"JavaSCript Tutorials",
+    coursePrice : 999,
+    courseInstructor:"Sundeep"
+}
+
+console.log(Course.courseInstructor) //Normal Method
+
+const {courseInstructor:ins}=Course
+
+// console.log(courseInstructor) //De-Structuring Object method
+console.log(ins)
+
+
+//API's
+
+
+
+
