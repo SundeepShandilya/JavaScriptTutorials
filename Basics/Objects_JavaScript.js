@@ -13,15 +13,15 @@ const jsObject={
     email:"abc@bgy.com",
     status:true
 };
-// console.log(jsObject.email);
-// console.log(jsObject["full name"]);
-// console.log(jsObject[mySym]);//Objects can only be accessed in this way from Objects
+console.log(jsObject.email);
+console.log(jsObject["full name"]);
+console.log(jsObject[mySym]);//Objects can only be accessed in this way from Objects
 
 jsObject.email="sm@gmail.com";//Way of Changing Object
 
-// Object.freeze(jsObject);//Object cannot be change after this
+Object.freeze(jsObject);//Object cannot be change after this
 
-// console.log(jsObject);
+console.log(jsObject);
 
 jsObject.greetings= function(){
     console.log("Hello User")
@@ -34,3 +34,4 @@ jsObject.greetings2 = function(){
     console.log(`Hello User,${this["full name"]}`);//String Interpolation
 }
 console.log(jsObject.greetings2());
+
